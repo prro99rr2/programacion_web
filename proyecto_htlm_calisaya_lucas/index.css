@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+    background-color: rgb(247, 244, 233);
+    margin: 0;
+}
+
+
+h1 { font-size: 3.5em;}
+h2 { font-size: 2.7EM;}
+h3 {font-size: 2em;}
+p  {font-size: 1.25em;}
+UL {list-style: none;}
+
+p.titulositio{
+    text-align: center;
+    padding: 50px 30px;
+    font-size: 2.5em;
+    margin: 0;
+
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px, 40px;
+    border-radius: 15px;
+    border: 2px solid #6aa3b4;
+    color:#0984bd;
+    background-color: #68da3e;
+}
+
+button:hover{
+    background-color: #5aca31;
+}
+.conteiner{
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    background-image: url("media/header.jpg");
+}
+
+p.logo{
+    margin: 0;
+    padding: 50px 30px;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+}
+header.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3em;
+
+}
+.cuadro{
+    background-image: url("media/cerro\ 2.jpg");
+}
